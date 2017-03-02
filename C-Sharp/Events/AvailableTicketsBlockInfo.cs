@@ -8,6 +8,5 @@ namespace LTD_API
         public decimal FacePrice { get; set; }
         public decimal SellingPrice { get; set; }
         public List<AvailableTicketInfo> AvailableTicketsInfos { get; set; }
-        private string tempRow;
     }
 }
