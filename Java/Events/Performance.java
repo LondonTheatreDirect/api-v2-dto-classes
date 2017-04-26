@@ -6,7 +6,7 @@ public class Performance
 {
     private int performanceId;
     private Date performanceDate;
-    private bool isUnreserved;
+    private boolean isUnreserved;
     
     public int getPerformanceId()
     {
@@ -26,11 +26,11 @@ public class Performance
         this.performanceDate = performanceDate;
     }
 
-    public bool getIsUnreserved()
+    public boolean getIsUnreserved()
     {
         return isUnreserved;
     }
-    public void setIsUnreserved(bool isUnreserved)
+    public void setIsUnreserved(boolean isUnreserved)
     {
         this.isUnreserved = isUnreserved;
     }
