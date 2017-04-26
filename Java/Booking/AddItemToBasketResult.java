@@ -2,15 +2,15 @@ package LTD_API;
 
 public class AddItemToBasketResult
 {
-    private bool success;
+    private boolean success;
     private AddItemToBasketFailureReason failureReason;
     private GetBasketContentResult getBasketContentResult;
 	
-    public bool getSuccess()
+    public boolean getSuccess()
     {
       return success;
     }
-    public void setSuccess(bool success)
+    public void setSuccess(boolean success)
     {
       this.success = success;
     }
