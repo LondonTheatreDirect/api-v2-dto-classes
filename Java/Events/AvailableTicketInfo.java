@@ -14,7 +14,7 @@ public class AvailableTicketInfo
     private String directBookingUrl;
     private String ticketArea;
     private int ticketId;
-    private bool isRestrictedView;
+    private boolean isRestrictedView;
     private String restrictionDescription;
     
     public int getVenueId()
@@ -125,11 +125,11 @@ public class AvailableTicketInfo
         this.ticketId = ticketId;
     }
 
-    public bool getIsRestrictedView()
+    public boolean getIsRestrictedView()
     {
         return isRestrictedView;
     }
-    public void setIsRestrictedView(bool isRestrictedView)
+    public void setIsRestrictedView(boolean isRestrictedView)
     {
         this.isRestrictedView = isRestrictedView;
     }
