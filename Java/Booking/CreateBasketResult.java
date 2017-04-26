@@ -2,14 +2,14 @@ package LTD_API;
 
 public class CreateBasketResult
 {
-    private bool success;
+    private boolean success;
     private String basketId;
     
-    public bool getSuccess()
+    public boolean getSuccess()
     {
         return success;
     }
-    public void setSuccess(bool success)
+    public void setSuccess(boolean success)
     {
         this.success = success;
     }
