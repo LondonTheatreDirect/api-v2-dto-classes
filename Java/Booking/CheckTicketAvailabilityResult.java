@@ -3,7 +3,7 @@ package LTD_API;
 public class CheckTicketAvailabilityResult
 {
     private int ticketId;
-    private bool isAvailable;
+    private boolean isAvailable;
     
     public int getTicketId()
     {
@@ -14,11 +14,11 @@ public class CheckTicketAvailabilityResult
         this.ticketId = ticketId;
     }
 
-    public bool getIsAvailable()
+    public boolean getIsAvailable()
     {
         return isAvailable;
     }
-    public void setIsAvailable(bool isAvailable)
+    public void setIsAvailable(boolean isAvailable)
     {
         this.isAvailable = isAvailable;
     }
