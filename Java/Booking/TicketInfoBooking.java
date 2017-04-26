@@ -7,7 +7,7 @@ public class TicketInfoBooking
     private String ticketName2;
     private decimal faceValue;
     private decimal sellingPrice;
-    private bool isRestrictedView;
+    private boolean isRestrictedView;
     private String restrictionDescription;
     
     public int getTicketId()
@@ -55,11 +55,11 @@ public class TicketInfoBooking
         this.sellingPrice = sellingPrice;
     }
 
-    public bool getIsRestrictedView()
+    public boolean getIsRestrictedView()
     {
         return isRestrictedView;
     }
-    public void setIsRestrictedView(bool isRestrictedView)
+    public void setIsRestrictedView(boolean isRestrictedView)
     {
         this.isRestrictedView = isRestrictedView;
     }
