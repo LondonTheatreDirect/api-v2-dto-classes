@@ -2,14 +2,14 @@ package LTD_API;
 
 public class SubmitOrderResult
 {
-    private bool success;
+    private boolean success;
     private String bookingReference;
     
-    public bool getSuccess()
+    public boolean getSuccess()
     {
         return success;
     }
-    public void setSuccess(bool success)
+    public void setSuccess(boolean success)
     {
         this.success = success;
     }
