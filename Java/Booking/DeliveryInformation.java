@@ -25,7 +25,7 @@ public class DeliveryInformation
     private String deliveryStateCode;
     private String deliveryCountry;
     private String deliveryCountryName;
-    private bool deliveryAddressSame;
+    private boolean deliveryAddressSame;
     
     public DeliveryTypeEnum getDeliveryType()
     {
@@ -234,11 +234,11 @@ public class DeliveryInformation
         this.deliveryCountryName = deliveryCountryName;
     }
 
-    public bool getDeliveryAddressSame()
+    public boolean getDeliveryAddressSame()
     {
         return deliveryAddressSame;
     }
-    public void setDeliveryAddressSame(bool deliveryAddressSame)
+    public void setDeliveryAddressSame(boolean deliveryAddressSame)
     {
         this.deliveryAddressSame = deliveryAddressSame;
     }
