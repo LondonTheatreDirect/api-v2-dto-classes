@@ -3,7 +3,7 @@ package LTD_API;
 public class SubmitOrderResult
 {
     private bool success;
-    private String BookingReference;
+    private String bookingReference;
     
     public bool getSuccess()
     {
@@ -16,11 +16,11 @@ public class SubmitOrderResult
 
     public String getBookingReference()
     {
-        return BookingReference;
+        return bookingReference;
     }
-    public void setBookingReference(String BookingReference)
+    public void setBookingReference(String bookingReference)
     {
-        this.BookingReference = BookingReference;
+        this.bookingReference = bookingReference;
     }
 }
 
