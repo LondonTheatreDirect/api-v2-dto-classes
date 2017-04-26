@@ -2,14 +2,14 @@ package LTD_API;
 
 public class ReleaseTicketFromBasketResult
 {
-    private bool success;
+    private boolean success;
     private GetBasketContentResult getBasketContentResult;
     
-    public bool getSuccess()
+    public boolean getSuccess()
     {
         return success;
     }
-    public void setSuccess(bool success)
+    public void setSuccess(boolean success)
     {
         this.success = success;
     }
