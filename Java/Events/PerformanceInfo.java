@@ -8,8 +8,8 @@ public class PerformanceInfo
     private Date performanceDate;
     private int ticketCount;
     private int totalAvailableTickesCount;
-    private bool containsDiscountOfferTickets;
-    private bool containsNoFeeOfferTickets;
+    private boolean containsDiscountOfferTickets;
+    private boolean containsNoFeeOfferTickets;
     private decimal minimumTicketPrice;
     private int maximumConsecutiveSeatsCount;
     private int eventId;
@@ -50,20 +50,20 @@ public class PerformanceInfo
         this.totalAvailableTickesCount = totalAvailableTickesCount;
     }
 
-    public bool getContainsDiscountOfferTickets()
+    public boolean getContainsDiscountOfferTickets()
     {
         return containsDiscountOfferTickets;
     }
-    public void setContainsDiscountOfferTickets(bool containsDiscountOfferTickets)
+    public void setContainsDiscountOfferTickets(boolean containsDiscountOfferTickets)
     {
         this.containsDiscountOfferTickets = containsDiscountOfferTickets;
     }
 
-    public bool getContainsNoFeeOfferTickets()
+    public boolean getContainsNoFeeOfferTickets()
     {
         return containsNoFeeOfferTickets;
     }
-    public void setContainsNoFeeOfferTickets(bool containsNoFeeOfferTickets)
+    public void setContainsNoFeeOfferTickets(boolean containsNoFeeOfferTickets)
     {
         this.containsNoFeeOfferTickets = containsNoFeeOfferTickets;
     }
