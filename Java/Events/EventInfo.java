@@ -27,7 +27,7 @@ public class EventInfo
     private List<EventMultimediaContent> multimediaContent;
     private String eventDetailUrl;
     private String tagLine;
-    private bool printAtHomeTicketsEnabled;
+    private boolean printAtHomeTicketsEnabled;
     
     public int getEventId()
     {
@@ -227,11 +227,11 @@ public class EventInfo
         this.tagLine = tagLine;
     }
 
-    public bool getPrintAtHomeTicketsEnabled()
+    public boolean getPrintAtHomeTicketsEnabled()
     {
         return printAtHomeTicketsEnabled;
     }
-    public void setPrintAtHomeTicketsEnabled(bool printAtHomeTicketsEnabled)
+    public void setPrintAtHomeTicketsEnabled(boolean printAtHomeTicketsEnabled)
     {
         this.printAtHomeTicketsEnabled = printAtHomeTicketsEnabled;
     }
