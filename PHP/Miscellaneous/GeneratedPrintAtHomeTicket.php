@@ -6,7 +6,6 @@ class GeneratedPrintAtHomeTicket
 {
     //instance of PrintAtHomeTicketInfo
 	private $ticket;
-	//instance of int?
 	private $fileSize;
 	private $downloadUrl;
 	
