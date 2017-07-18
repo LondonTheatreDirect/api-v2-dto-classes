@@ -26,7 +26,7 @@ class GetFullPerformanceAvailabilityResult
         $this->eventId = $eventId;
     }
 
-¨   public function getAvailableTickets()
+    public function getAvailableTickets()
     {
         return $this->availableTickets;
     }
@@ -34,6 +34,4 @@ class GetFullPerformanceAvailabilityResult
     {
         $this->availableTickets = $availableTickets;
     }
-
-
 }
