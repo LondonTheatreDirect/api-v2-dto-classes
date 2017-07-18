@@ -30,7 +30,7 @@ class FullTicketInfo
         $this->areaName = $areaName;
     }
 
-	public function getTicketName1()
+    public function getTicketName1()
     {
         return $this->ticketName1;
     }
@@ -39,7 +39,7 @@ class FullTicketInfo
         $this->ticketName1 = $ticketName1;
     }
 
-	public function getTicketName2()
+    public function getTicketName2()
     {
         return $this->ticketName2;
     }
@@ -48,7 +48,7 @@ class FullTicketInfo
         $this->ticketName2 = $ticketName2;
     }
 
-	public function getSellingPrice()
+    public function getSellingPrice()
     {
         return $this->sellingPrice;
     }
@@ -57,7 +57,7 @@ class FullTicketInfo
         $this->sellingPrice = $sellingPrice;
     }
 
-	public function getFaceValue()
+    public function getFaceValue()
     {
         return $this->faceValue;
     }
@@ -66,7 +66,7 @@ class FullTicketInfo
         $this->faceValue = $faceValue;
     }
 
-	public function getRestrictedView()
+    public function getRestrictedView()
     {
         return $this->restrictedView;
     }
@@ -75,7 +75,7 @@ class FullTicketInfo
         $this->restrictedView = $restrictedView;
     }
 
-	public function getDescription()
+    public function getDescription()
     {
         return $this->description;
     }
