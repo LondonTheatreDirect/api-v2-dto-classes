@@ -4,11 +4,11 @@ namespace LTD_API;
 class GetFullPerformanceAvailabilityResult
 {
     private $performanceId;
-	private $eventId;
-	//array of FullTicketInfo
-	private $availableTickets;
+    private $eventId;
+    //array of FullTicketInfo
+    private $availableTickets;
 	
-	public function getPerformanceId()
+    public function getPerformanceId()
     {
         return $this->performanceId;
     }
@@ -17,7 +17,7 @@ class GetFullPerformanceAvailabilityResult
         $this->performanceId = $performanceId;
     }
 
-	public function getEventId()
+    public function getEventId()
     {
         return $this->eventId;
     }
@@ -26,7 +26,7 @@ class GetFullPerformanceAvailabilityResult
         $this->eventId = $eventId;
     }
 
-	public function getAvailableTickets()
+¨   public function getAvailableTickets()
     {
         return $this->availableTickets;
     }
