@@ -2,16 +2,16 @@ package LTD_API;
 
 public class FullTicketInfo
 {
-	private int ticketId;
-	private String areaName;
-	private String ticketName1;
-	private String ticketName2;
-	private decimal sellingPrice;
-	private decimal faceValue;
-	private bool restrictedView;
-	private String description;
+    private int ticketId;
+    private String areaName;
+    private String ticketName1;
+    private String ticketName2;
+    private decimal sellingPrice;
+    private decimal faceValue;
+    private bool restrictedView;
+    private String description;
   
-	public int getTicketId()
+    public int getTicketId()
     {
         return ticketId;
     }
@@ -20,7 +20,7 @@ public class FullTicketInfo
         this.ticketId = ticketId;
     }
 
-	public String getAreaName()
+    public String getAreaName()
     {
         return areaName;
     }
@@ -29,7 +29,7 @@ public class FullTicketInfo
         this.areaName = areaName;
     }
 
-	public String getTicketName1()
+    public String getTicketName1()
     {
         return ticketName1;
     }
@@ -38,7 +38,7 @@ public class FullTicketInfo
         this.ticketName1 = ticketName1;
     }
 
-	public String getTicketName2()
+    public String getTicketName2()
     {
         return ticketName2;
     }
@@ -47,7 +47,7 @@ public class FullTicketInfo
         this.ticketName2 = ticketName2;
     }
 
-	public decimal getSellingPrice()
+    public decimal getSellingPrice()
     {
         return sellingPrice;
     }
@@ -56,7 +56,7 @@ public class FullTicketInfo
         this.sellingPrice = sellingPrice;
     }
 
-	public decimal getFaceValue()
+    public decimal getFaceValue()
     {
         return faceValue;
     }
@@ -65,7 +65,7 @@ public class FullTicketInfo
         this.faceValue = faceValue;
     }
 
-	public bool getRestrictedView()
+    public bool getRestrictedView()
     {
         return restrictedView;
     }
@@ -74,7 +74,7 @@ public class FullTicketInfo
         this.restrictedView = restrictedView;
     }
 
-	public String getDescription()
+    public String getDescription()
     {
         return description;
     }
