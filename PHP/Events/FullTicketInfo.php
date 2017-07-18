@@ -4,15 +4,15 @@ namespace LTD_API;
 class FullTicketInfo
 {
     private $ticketId;
-	private $areaName;
-	private $ticketName1;
-	private $ticketName2;
-	private $sellingPrice;
-	private $faceValue;
-	private $restrictedView;
-	private $description;
+    private $areaName;
+    private $ticketName1;
+    private $ticketName2;
+    private $sellingPrice;
+    private $faceValue;
+    private $restrictedView;
+    private $description;
 
-	public function getTicketId()
+    public function getTicketId()
     {
         return $this->ticketId;
     }
@@ -21,7 +21,7 @@ class FullTicketInfo
         $this->ticketId = $ticketId;
     }
 
-	public function getAreaName()
+    public function getAreaName()
     {
         return $this->areaName;
     }
