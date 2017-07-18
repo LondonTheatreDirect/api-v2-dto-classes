@@ -5,10 +5,10 @@ import java.util.List;
 public class GetFullPerformanceAvailabilityResult
 {
     private int performanceId;
-	private int eventId;
-	private List<FullTicketInfo> availableTickets;
+    private int eventId;
+    private List<FullTicketInfo> availableTickets;
 	
-	public int getPerformanceId()
+    public int getPerformanceId()
     {
         return performanceId;
     }
@@ -17,7 +17,7 @@ public class GetFullPerformanceAvailabilityResult
         this.performanceId = performanceId;
     }
 
-	public int getEventId()
+    public int getEventId()
     {
         return eventId;
     }
@@ -26,7 +26,7 @@ public class GetFullPerformanceAvailabilityResult
         this.eventId = eventId;
     }
 
-	public List<FullTicketInfo> getAvailableTickets()
+    public List<FullTicketInfo> getAvailableTickets()
     {
         return availableTickets;
     }
