@@ -5,9 +5,9 @@ import java.util.List;
 public class ProtectionInformation
 {
     private int protectedTicketsCount;
-	private decimal totalProtectionPrice;
+    private decimal totalProtectionPrice;
 	
-	public int getProtectedTicketsCount()
+    public int getProtectedTicketsCount()
     {
         return protectedTicketsCount;
     }
