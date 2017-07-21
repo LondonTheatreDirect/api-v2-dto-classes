@@ -3,10 +3,10 @@ namespace LTD_API;
 
 class ProtectionInformation
 {
-	private $protectedTicketsCount;
-	private $totalProtectionPrice;
+    private $protectedTicketsCount;
+    private $totalProtectionPrice;
 	
-	public function getProtectedTicketsCount()
+    public function getProtectedTicketsCount()
     {
         return $this->protectedTicketsCount;
     }
